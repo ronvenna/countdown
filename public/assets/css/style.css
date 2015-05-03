@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('/assets/fonts/HelveticaNeue-UltraLight.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/HelveticaNeue-UltraLight.woff') format('woff'), url('/assets/fonts/HelveticaNeue-UltraLight.ttf')  format('truetype'), url('/assets/fonts/HelveticaNeue-UltraLight.svg#HelveticaNeue-UltraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#countdown{
+	font-family: 'HelveticaNeue-UltraLight'
+}
+
+#title{
+	float: left;
+}
+
+.rightNavBarItem{
+	float: right;
+	cursor: pointer;
+	margin-right: 25px;
+}
+
+#timer{
+	clear: both;
+	border: 1px solid #000;
+	border-radius: 500px;
+	height: 500px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#timer h1{
+	font-size: 8em;
+	font-weight: 100;
+}
+
+#timer p{
+	font-size: 4em;
+	font-weight: 100;
+	text-align: center;
+}
+
+.center-item{
+	text-align: center;
+}
+
+.vertical-center{
+  position: absolute;
+  margin-left: 30px;
+  top: 200px;
+}
+
+#buttons{
+	margin-top: 40px;
+}
+#buttons .btn{
+	margin-right: 10px;
+}
+
+.loading1{
+	width: 100%;
+ 	background: -webkit-linear-gradient(180deg, #7b4397 10%, #dc2430 90%); /* Chrome 10+, Saf5.1+ */
+ 	background:    -moz-linear-gradient(180deg, #7b4397 10%, #dc2430 90%); /* FF3.6+ */
+ 	background:     -ms-linear-gradient(180deg, #7b4397 10%, #dc2430 90%); /* IE10 */
+ 	background:      -o-linear-gradient(180deg, #7b4397 10%, #dc2430 90%); /* Opera 11.10+ */
+  	background:         linear-gradient(180deg, #7b4397 10%, #dc2430 90%); /* W3C */
+}
+
+#message-header{
+	  height: 0px;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  color: #fff;
+	  text-align: center;
+}
+
+#intro-header{
+	  height: 0px;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  color: #fff;
+	  text-align: center;	
+}
+
+#settings-header{
+	  height: 0px;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  color: #fff;
+	  text-align: left;
+}
+
+#settings-header h3{
+	float: left;
+	margin-left: 30px;
+}
+
+.settings-dropdown{
+	float: left;
+	width: 80px;
+	margin-left: 20px;
+	margin-top: 16px;
+	border-radius: 0px;
+	background: #000;
+	border: none;
+	color: #fff;
+}
+
+.setting-submit-btn{
+	float: right;
+	margin-top: 16px;
+	background: #000;
+	border: none;
+	color: #fff;
+	width: 100px;
+	margin-right: 20px;
+}
+
+.setting-cancel{
+  float: right;
+  margin-top: 16px;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.start{
+  z-index: 1000;
+  background: -webkit-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* W3C */
+        
+}
+
+.done{
+  z-index: 1000;
+  background: -webkit-linear-gradient(90deg, #1CD8D2 10%, #93EDC7 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #1CD8D2 10%, #93EDC7 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #1CD8D2 10%, #93EDC7 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #1CD8D2 10%, #93EDC7 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #1CD8D2 10%, #93EDC7 90%); /* W3C */
+        
+}
+
+.settings{
+  z-index: 1000;
+  background: -webkit-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* W3C */
+        
+}
+
+.exit-circle{
+  height: 40px;
+  width: 40px;
+  border: 1px #fff solid;
+  border-radius: 20px;
+  float: right;
+  margin-top: 16px;
+  font-size: 27px;
+  color: #fff;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
