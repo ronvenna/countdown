@@ -41,6 +41,38 @@
 	text-align: center;
 }
 
+@media (max-width: 768px) {
+	#timer{
+		clear: both;
+		border: 1px solid #000;
+		border-radius: 300px;
+		height: 300px;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+	}
+
+	#timer h1{
+	font-size: 4.5em;
+	font-weight: 100;
+	}
+
+	#timer p{
+		font-size: 2em;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	#intro-header h1{
+		font-size: 20px;
+	}
+
+	#intro-header h2{
+		font-size: 18px;
+	}
+}
+
 .center-item{
 	text-align: center;
 }
